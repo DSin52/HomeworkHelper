@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1" >
+
+    <TableRow>
+
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Homework"
+            android:id="@+id/hwTitle"
+            android:textSize="25dp" />
+
+        <TextView
+            android:gravity="right"
+            android:padding="3dip"
+            android:text="Done?"
+            android:textSize="25dp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/hw1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:hint="Enter Assignment" />
+
+        <CheckBox
+            android:id="@+id/hwTog1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/hw2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:hint="Enter Assignment" />
+
+        <CheckBox
+            android:id="@+id/hwTog2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/hw3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:hint="Enter Assignment" />
+
+        <CheckBox
+            android:id="@+id/hwTog3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/hw4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:hint="Enter Assignment" />
+
+        <CheckBox
+            android:id="@+id/hwTog4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/hw5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:hint="Enter Assignment" />
+
+        <CheckBox
+            android:id="@+id/hwTog5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/hw6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:hint="Enter Assignment" />
+
+        <CheckBox
+            android:id="@+id/hwTog6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number" />
+    </TableRow>
+
+    <TableRow>
+
+        <EditText
+            android:id="@+id/hwEntry"
+            android:layout_column="1"
+            android:hint="Enter Assignment"
+            android:paddingTop="1dip"
+            android:textSize="20dip" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/bHw"
+            android:text="Add" />
+    </TableRow>
+
+</TableLayout>

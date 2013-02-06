@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical" >
+
+    <TableRow
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="37dp"
+            android:layout_marginTop="2sp"
+            android:padding="3dp"
+            android:text="Class Name "
+            android:textSize="22dp"
+            android:textStyle="normal" />
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="2sp"
+            android:padding="3dp"
+            android:text="Credits"
+            android:textSize="22dp" />
+    </TableRow>
+
+    <TableRow
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dp"
+        android:paddingTop="3dp"
+        android:weightSum="100" >
+
+        <EditText
+            android:id="@+id/etclass1"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="80"
+            android:singleLine="true"
+            android:textSize="20sp" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/etgpa1"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:singleLine="true"
+            android:textSize="20sp" 
+            android:inputType="number">
+        </EditText>
+    </TableRow>
+
+    <TableRow
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dp"
+        android:paddingTop="3dp"
+        android:weightSum="100" >
+
+        <EditText
+            android:id="@+id/etclass2"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="80"
+            android:singleLine="true"
+            android:textSize="20sp" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/etgpa2"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:singleLine="true"
+            android:textSize="20sp" 
+            android:inputType="number">
+        </EditText>
+    </TableRow>
+
+    <TableRow
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dp"
+        android:paddingTop="3dp"
+        android:weightSum="100" >
+
+        <EditText
+            android:id="@+id/etclass3"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="80"
+            android:singleLine="true"
+            android:textSize="20sp" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/etgpa3"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:singleLine="true"
+            android:textSize="20sp"
+            android:inputType="number" >
+        </EditText>
+    </TableRow>
+
+    <TableRow
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dp"
+        android:paddingTop="3dp"
+        android:weightSum="100" >
+
+        <EditText
+            android:id="@+id/etclass4"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="80"
+            android:singleLine="true"
+            android:textSize="20sp" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/etgpa4"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:singleLine="true"
+            android:textSize="20sp"
+            android:inputType="number" >
+        </EditText>
+    </TableRow>
+
+    <TableRow
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dp"
+        android:paddingTop="3dp"
+        android:weightSum="100" >
+
+        <EditText
+            android:id="@+id/etclass5"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="80"
+            android:singleLine="true"
+            android:textSize="20sp" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/etgpa5"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:singleLine="true"
+            android:textSize="20sp"
+            android:inputType="number" >
+        </EditText>
+    </TableRow>
+
+    <TableRow
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dp"
+        android:paddingTop="3dp"
+        android:weightSum="100" >
+
+        <EditText
+            android:id="@+id/etclass6"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="80"
+            android:singleLine="true"
+            android:textSize="20sp" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/etgpa6"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:singleLine="true"
+            android:textSize="20sp"
+            android:inputType="number" >
+        </EditText>
+    </TableRow>
+    
+        <TableRow
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dp"
+        android:paddingTop="3dp"
+        android:weightSum="100" >
+
+        <Button
+            android:id="@+id/bSave"
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="10"
+            android:text="SAVE"
+            android:singleLine="true"
+            android:textSize="10sp" >
+        </Button>
+
+        
+    </TableRow>
+      <TableRow
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="37dp"
+            android:layout_marginTop="2sp"
+            android:padding="3dp"
+            android:text="Total Credits: "
+            android:textSize="22dp"
+            android:textStyle="normal" />
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/numCredits"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="2sp"
+            android:padding="3dp"
+            android:text="0"
+            android:textSize="22dp" />
+    </TableRow>
+    
+
+</TableLayout>
